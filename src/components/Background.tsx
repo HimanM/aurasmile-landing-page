@@ -8,7 +8,7 @@ const Background: React.FC = () => {
         loop 
         muted 
         playsInline
-        className="w-full h-full object-cover [object-position:88%_center] lg:object-center gsap-fade-in"
+        className="w-full h-full object-cover [object-position:88%_center] lg:object-center lg:scale-105 gsap-fade-in"
         src="/Subtle_Animations_No_Audio_Video.mp4"
       />
       {/* Subtle overlay to ensure text legibility */}
