@@ -6,6 +6,11 @@
 
 > A cinematic, Dribbble-inspired UI prototype built with Google Gemini / Google AI Studio. This repo contains the interactive demo and instructions to run it locally.
 
+
+
+https://github.com/user-attachments/assets/465fec8a-1903-4c15-9260-706809317fc4
+
+
 ## Inspiration & Credits
 
 - Design inspiration: Dribbble — https://dribbble.com/shots/27133340-Website-design-for-dental-studio
