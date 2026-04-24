@@ -29,21 +29,26 @@ export default function App() {
 
   useEffect(() => {
     if (!navBgRef.current || !navContentRef.current) return;
-    
+
     if (isNavOpen) {
-      gsap.to(navBgRef.current, { 
-        scale: 80, 
-        duration: 0.7, 
-        ease: "power2.inOut" 
+      gsap.to(navBgRef.current, {
+        width: '200vw',
+        height: '200vh',
+        top: '-300px',
+        right: '-300px',
+        duration: 0.7,
+        ease: "power2.inOut"
       });
-      gsap.to(navContentRef.current, { autoAlpha: 1, duration: 0.4, delay: 0.3 });
+      gsap.to(navContentRef.current, { autoAlpha: 1, duration: 0.4, delay: 0.2 });
     } else {
       gsap.to(navContentRef.current, { autoAlpha: 0, duration: 0.2 });
-      gsap.to(navBgRef.current, { 
-        scale: 1, 
-        duration: 0.7, 
-        ease: "power2.inOut", 
-        delay: 0.1 
+      gsap.to(navBgRef.current, {
+        width: '48px',
+        height: '48px',
+        top: '20px',
+        right: '20px',
+        duration: 0.7,
+        ease: "power2.inOut"
       });
     }
   }, [isNavOpen]);
@@ -68,15 +73,14 @@ export default function App() {
       <div className="relative z-10 w-full h-full flex flex-col px-6 sm:px-10 lg:px-16 pt-5 sm:pt-8 pb-5 sm:pb-8 lg:pb-12">
         
         {/* Mobile Nav Overlay Background */}
-        <div 
-          ref={navBgRef} 
-          className="fixed rounded-full pointer-events-none bg-black/40 backdrop-blur-xl z-[45] md:hidden origin-center" 
-          style={{ 
-            top: '20px', 
-            right: '20px', 
-            width: '48px', 
-            height: '48px',
-            transform: 'scale(1)'
+        <div
+          ref={navBgRef}
+          className="fixed rounded-full pointer-events-none backdrop-blur-sm z-[45] md:hidden origin-top-right"
+          style={{
+            top: '20px',
+            right: '20px',
+            width: '48px',
+            height: '48px'
           }}
         />
 
