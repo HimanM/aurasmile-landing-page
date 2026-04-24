@@ -1,22 +1,51 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+   <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Aurasmile — Vibe-coded Studio UI
 
-https://dribbble.com/shots/27133340-Website-design-for-dental-studio
+> A cinematic, Dribbble-inspired UI prototype built with Google Gemini / Google AI Studio. This repo contains the interactive demo and instructions to run it locally.
 
-This contains everything you need to run your app locally.
+## Inspiration & Credits
 
-View your app in AI Studio: https://ai.studio/apps/52700fe3-c415-471c-96ec-bf3fdda81bbd
+- Design inspiration: Dribbble — https://dribbble.com/shots/27133340-Website-design-for-dental-studio
+- Visual prompts and assets assisted by Google Gemini / Google AI Studio
+
+## Key Features
+
+- Cinematic glassmorphism, deep blurs, and layered frosted effects
+- Scroll-snap driven sections with viewport-aware animations
+- AI-assisted visual drafts refined into production-ready components
+
+## Technologies
+
+- React (v19)
+- Vite
+- Tailwind CSS v4
+- Framer Motion / GSAP
+- TypeScript
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js (16+ recommended)
+
+1. Install dependencies
+
+```bash
+npm install
+```
+
+2. Start the dev server
+
+```bash
+npm run dev
+```
+
+## Screenshots
+
+<div align="center">
+   <img src="docs/1.png" alt="Hero" width="900" style="margin-bottom:20px;" />
+   <img src="docs/2.png" alt="Features" width="900" style="margin-bottom:20px;" />
+</div>
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
