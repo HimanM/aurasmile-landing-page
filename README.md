@@ -45,7 +45,6 @@ npm run dev
 
 <div align="center">
    <img src="docs/1.png" alt="Hero" width="900" style="margin-bottom:20px;" />
-   <img src="docs/2.png" alt="Features" width="900" style="margin-bottom:20px;" />
 </div>
 
 
