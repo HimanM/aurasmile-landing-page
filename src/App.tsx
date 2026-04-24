@@ -75,7 +75,7 @@ export default function App() {
         {/* Mobile Nav Overlay Background */}
         <div
           ref={navBgRef}
-          className="fixed rounded-full pointer-events-none backdrop-blur-sm z-[45] md:hidden origin-top-right"
+          className="fixed rounded-full pointer-events-none backdrop-blur-xl z-[45] md:hidden origin-top-right"
           style={{
             top: '20px',
             right: '20px',
